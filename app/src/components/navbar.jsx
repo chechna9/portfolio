@@ -23,9 +23,9 @@ const Navbar = () => {
             <img src={projectIcon} className={iconStyle} alt="" />
           </a>
           <li className={navLinkStyle}>
-            <a href="#contactUs">Contact us</a>
+            <a href="#contactMe">Contact me</a>
           </li>
-          <a href="#contactUs" className="md:hidden">
+          <a href="#contactMe" className="md:hidden">
             <img src={contactIcon} className={iconStyle} alt="" />
           </a>
         </ul>
