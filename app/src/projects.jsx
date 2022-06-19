@@ -22,8 +22,8 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="bg-prim2 h-screen">
-      {/* <Project imgLink={"chantech.png"} /> */}
+    <div className="bg-prim2 h-screen" id="projects">
+        <h1 className="text-white font-bold mx-2">And those are the projects that i worked and paricipated in : </h1>
       <Project data={projects[0]} />
     </div>
   );
