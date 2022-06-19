@@ -30,7 +30,10 @@ const Projects = () => {
       description:
         "Desktop application that simulates the Enigma encryption machine that was used during World War II.",
       imgLink: "enigma.png",
-      links: -1,
+      links: [{
+        platformIcon: "github.svg",
+            link: "https://github.com/chechna9/EnigmaMachine_Flutter_Desktop_app",
+      },],
       technologies: "Flutter",
     },
     {
@@ -49,7 +52,7 @@ const Projects = () => {
     {
         name: "SmartFridge",
         description:
-          "Mobile app coupled with a smart fridge build during iwd22 Algiers hackathon, with features such as : Ability to automatically order missing ingredients for a recipe,Offering a family area to add a shopping listand ,statistics by calorie consumption...",
+          "Mobile app coupled with a smart fridge build during iwd22 Algiers hackathon, with features such as : Ability to automatically order missing ingredients for a recipe,Offering a family area to add a shopping list and ,statistics by calorie consumption...",
           imgLink: "iwd22.png",
         links: [
           {
@@ -59,9 +62,35 @@ const Projects = () => {
         ],
         technologies: "Flutter",
       },
+    {
+        name: "WTM Algiers Website",
+        description:
+          "I was part of the team that worked on this website",
+          imgLink: "wtmWebsite.png",
+        links: [
+          {
+            platformIcon: "internetIcon.svg",
+            link: "https://www.wtmalgiers.org/",
+          },
+        ],
+        technologies: "NextJs , TailwindCss",
+      },
+    {
+        name: "IWD22  Website",
+        description:
+          "I was part of the team that worked on this website",
+          imgLink: "iwdWebsite.png",
+        links: [
+          {
+            platformIcon: "internetIcon.svg",
+            link: "https://iwd22.wtmalgiers.org/",
+          },
+        ],
+        technologies: "NextJs , TailwindCss",
+      },
   ];
   return (
-    <div className="bg-prim2  pt-3" id="projects">
+    <div className="bg-prim2  py-10" id="projects">
         <h1 className="text-white font-bold mb-8 text-2xl text-center">And those are the projects that i worked and paricipated in : </h1>
         {
             projects.map((index,value)=>{
