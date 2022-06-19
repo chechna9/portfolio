@@ -90,7 +90,7 @@ const Home = () => {
     fillIt();
   }, []);
   return (
-    <div className="bg-prim1 h-screen flex flex-col md:flex-row justify-evenly  items-center" id="home">
+    <div className="bg-prim1 h-screen flex flex-col md:flex-row justify-evenly  items-center overflow-scroll" id="home">
       <div className=" flex flex-col justify-center ">
         <div className=" flex flex-row justify-center my-7 ">
           <h1 className="text-white font-bold text-3xl md:text-4xl">
